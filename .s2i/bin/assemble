@@ -5,10 +5,7 @@
 #
 # WAR_FILE_LOCATION: Set in .s2i/environment
 
-DEPLOY_DIR=$JBOSS_HOME/standalone/deployments
-APP_NAME=ROOT.war
-
-echo "deploying artifact found at $WAR_FILE_LOCATION to $DEPLOY_DIR/$APP_NAME"
-curl --insecure -L -o $DEPLOY_DIR/$APP_NAME $WAR_FILE_LOCATION
+echo "deploying artifact found at $WAR_FILE_LOCATION to $TOMCAT_WEBAPPS_DIR/$APP_NAME"
+curl --insecure -L -o $TOMCAT_WEBAPPS_DIR/$APP_NAME $WAR_FILE_LOCATION
 
 exit 0
