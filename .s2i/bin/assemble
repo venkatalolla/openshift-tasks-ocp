@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This script simply gets a pre-compiled war file from a location on the Web
-# (Nexus, Jenkins, ...) and deploys it into the JBoss EAP Server.
+# (Nexus, Jenkins, ...) and deploys it into the Tomcat J2EE Server.
 #
 # WAR_FILE_LOCATION: Set in .s2i/environment
 
