@@ -1,1 +1,2 @@
+TOMCAT_WEBAPPS_DIR=/opt/webserver/webapps
 WAR_FILE_LOCATION=http://nexus3-nexus.192.168.64.2.nip.io/repository/maven-all-public/os-sample-java-web.war
