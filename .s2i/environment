@@ -1,3 +1,2 @@
-TOMCAT_WEBAPPS_DIR=/opt/webserver/webapps
-APP_NAME=reta-integration-2.0.0-SNAPSHOT-2.0.0-20170522.221559-16.war
-WAR_FILE_LOCATION=http://vrh7nexuschqd01.railinc.com:8081/repository/maven-snapshots/com/railinc/reta/reta-integration/2.0.0-SNAPSHOT/reta-integration-2.0.0-SNAPSHOT-2.0.0-20170522.221559-16.war
+WAR_FILE_LOCATION=http://nexus3.nexus.svc.cluster.local:8081/repository/releases/org/jboss/quickstarts/eap/jboss-tasks-rs/1.7/jboss-tasks-rs-1.7.war
+BUILD_NUMBER=64
