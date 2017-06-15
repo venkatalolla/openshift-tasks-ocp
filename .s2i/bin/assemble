@@ -1,11 +1,12 @@
 #!/bin/sh
-
 # This script simply gets a pre-compiled war file from a location on the Web
-# (Nexus, Jenkins, ...) and deploys it into the Tomcat J2EE Server.
+# (Nexus, Jenkins, ...) and deploys it into the JBoss EAP Server.
 #
 # WAR_FILE_LOCATION: Set in .s2i/environment
-
-echo "deploying artifact found at $WAR_FILE_LOCATION to $TOMCAT_WEBAPPS_DIR/$APP_NAME"
-curl --insecure -L -o $TOMCAT_WEBAPPS_DIR/$APP_NAME $WAR_FILE_LOCATION
-
+DEPLOY_DIR=$JBOSS_HOME/standalone/deployments
+APP_NAME=ROOT.war
+echo "deploying artifact found at $WAR_FILE_LOCATION to
+$DEPLOY_DIR/$APP_NAME"
+curl --insecure -L -o $DEPLOY_DIR/$APP_NAME $WAR_FILE_LOCATION
 exit 0
+Contact GitHub API Training Shop Blog About
