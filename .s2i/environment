@@ -1,2 +1,2 @@
 WAR_FILE_LOCATION=http://nexus3.nexus.svc.cluster.local:8081/repository/maven-releases/org/jboss/quickstarts/eap/jboss-tasks-rs/1.7/jboss-tasks-rs-1.7.war
-BUILD_NUMBER=37
+BUILD_NUMBER=38
